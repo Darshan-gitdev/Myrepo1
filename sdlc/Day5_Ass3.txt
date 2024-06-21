@@ -1,0 +1,36 @@
+Absolute and relative paths are two ways to specify the location of a file or directory in Linux. Here's a breakdown of the key differences:
+
+Absolute Path:
+
+Definition: An absolute path specifies the complete location of a file or directory starting from the root directory (/).
+
+Format: It always starts with a forward slash (/) followed by a series of directories separated by more slashes.
+
+Example: /home/user/Documents/myfile.txt - This points to the file myfile.txt inside the Documents directory of the user's home directory.
+
+Benefits:
+Universally understood - Anyone can access the file or directory regardless of their current location.
+Useful for scripts and commands that need to access specific files or directories.
+
+Drawbacks:
+Can be lengthy to type, especially for deeply nested files.
+Not relative to your current location, so you can't easily move around the file system.
+
+
+Relative Path:
+
+Definition: A relative path specifies the location of a file or directory relative to your current working directory (pwd).
+
+Format: It does not start with a forward slash. It can use:
+Current directory (".") - Refers to the directory you're currently in.
+Parent directory ("..") - Refers to the directory one level above your current directory.
+Subdirectories - Names of subdirectories within your current location or referenced directories.
+
+Example: ./documents/myfile.txt - Assuming you're in your home directory, this points to the same file as the absolute path example above.
+
+Benefits:
+More concise for frequently accessed files/directories within your current location or nearby directories.
+Easier to navigate around the file system relative to your current position.
+
+Drawbacks:
+Relies on your current working directory, so it might not work if you run the command from a different location.

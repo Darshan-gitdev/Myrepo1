@@ -1,0 +1,33 @@
+Scrum and Kanban are both Agile project management methodologies, but they approach workflow in different ways. Here's a breakdown of the key differences:
+
+**Focus:**
+
+* **Scrum:** Structure and delivering work in set time periods (sprints).
+* **Kanban:** Visualizing workflow and maximizing efficiency (flow).
+
+**Process:**
+
+* **Scrum:** Follows a defined set of roles (Product Owner, Scrum Master, Developers), ceremonies (meetings), and artifacts (product backlog, sprint backlog, increment). Work happens in sprints (fixed-length cycles).
+* **Kanban:** More flexible, with a focus on continuous flow. Work items move across a visual Kanban board with stages representing the workflow.  
+
+**Work In Progress (WIP) Limits:**
+
+* **Scrum:** WIP limits are set for each sprint, controlling how much work the team takes on at once.
+* **Kanban:** WIP limits are ongoing, applied to each stage of the Kanban board to prevent bottlenecks.
+
+**Prioritization:**
+
+* **Scrum:** Priorities are set at the beginning of each sprint based on the product backlog.
+* **Kanban:** Work items are prioritized continuously based on a defined system.
+
+**Adaptability:**
+
+* **Scrum:** Adaptability happens during sprint reviews and retrospectives, where the team inspects and adapts the product and process.
+* **Kanban:** Designed for continuous adaptation as new information or priorities emerge.
+
+**Choosing the right approach:**
+
+* **Scrum:**  Good for complex projects with well-defined goals that benefit from a structured approach and regular delivery cycles. 
+* **Kanban:**  Well-suited for ongoing projects with changing priorities or where a continuous flow of work is important. 
+
+In some cases, teams might even combine elements of both Scrum and Kanban. 

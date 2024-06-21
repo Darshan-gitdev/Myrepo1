@@ -1,0 +1,34 @@
+a. Create a file named demo.txt inside the Movies directory:
+
+mkdir Movies  # Create the Movies directory if it doesn't exist
+
+touch Movies/demo.txt  # Create the demo.txt file inside Movies
+
+
+
+b. Copy hello.txt files from Desktop to Downloads directory:
+
+cp ~/Desktop/hello.txt ~/Downloads  # Copies hello.txt from Desktop to Downloads
+
+
+
+c. Write a command to display all the files from the Movies Directory:
+
+ls Movies  # Lists all files and directories in the Movies directory
+
+
+
+d. Display the first 15 lines of demo.txt file:
+
+head -n 15 Movies/demo.txt  # Displays the first 15 lines of demo.txt
+
+
+
+e. Using cat command, create a new file and write data to the file:
+
+cat > new_file.txt  # This opens new_file.txt for writing in the terminal
+
+f. Read the file content of demo.txt:
+
+Bash
+cat Movies/demo.txt  # Displays the contents of demo.txt

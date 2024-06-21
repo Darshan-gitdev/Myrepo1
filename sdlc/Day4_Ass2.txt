@@ -1,0 +1,110 @@
+User Story 1:
+
+User Story: User Login
+As a user,
+I want to log in to the application,
+so that I can access my account.
+ 
+Acceptance Criteria:
+Login Page Navigation
+ 
+Given I am on the landing page,
+When I click "Login",
+Then I should see the login page.
+Login Form
+ 
+Given I am on the login page,
+Then I should see fields for username  and password, and a "Login" button.
+Successful Login
+ 
+Given I enter valid credentials,
+When I click "Login",
+Then I should be redirected to the dashboard.
+Unsuccessful Login
+ 
+Given I enter invalid credentials,
+When I click "Login",
+Then I should see an error message.
+Forgot Password
+ 
+Given I am on the login page,
+When I click "Forgot Password",
+Then I should be taken to the password reset page.
+
+[2:56 PM] cheripallypranathi21@gmail.com (Unverified)
+User story: As a user,
+
+I want to log into my account,
+
+so that I can access my personal dashboard, view and manage my bookings, and get personalized services.
+ 
+Acceptance Criteria:
+
+Login Page Accessibility-
+Given a user is on the home page,
+
+When the user clicks on the "Login" button,
+
+Then the user should be redirected to the login page.
+ 
+Email Validation-
+Given a user is on the login page,
+
+When the user enters an incorrectly formatted email,
+
+And clicks on the "Login" button,
+
+Then the user should see an error message indicating the email format is invalid,
+
+And should remain on the login page.
+
+User Story 2:
+
+User Story:
+
+As a [user], I want to [login into my account] so that [I can check the dashboard]
+
+Acceptance criteria:
+
+->User should be able to access the login page.
+
+->User should be able to enter their username and password.
+
+->Upon successful login, the user should be redirected to dashboard.
+
+->If login credentials are incorrect, the user should see an error message.
+ 
+User Story:
+
+As a user, I want to [book a flight] so that [I can explore the places]
+ 
+Acceptance Criteria:
+
+->User should be able to select the flight.
+
+->User should be able to choose boarding and destination details.
+
+->User should be able to review the selected booking details before confirming.
+
+->Upon confirmation, email should be sent to the user
+
+User Story 3:
+
+As a user, I want to view and manage my bookings 
+
+so that I can make changes if necessary.
+
+Acceptance criteria:
+
+- user is logged in, when they navigate to the "My Bookings" page, 
+
+then the system should display a list of all their bookings with basic details.
+
+- user is on "My Bookings" page, when they click on a specific booking, 
+
+then system should display detailed booking information.
+
+- user is viewing a specific booking, when they click "Change Booking," 
+
+then system should navigate them to change booking process where they can modify flight. 
+

@@ -1,0 +1,48 @@
+## Basic Navigation and File Management
+
+1. **pwd:** Print Working Directory - Shows the full path of your current location.
+2. **cd:** Change Directory - Navigates to a different directory.
+3. **ls:** List - Displays a list of files and directories in the current directory.  
+4. **mkdir:** Make Directory - Creates a new directory.
+5. **rmdir:** Remove Directory - Deletes an empty directory.  
+6. **cp:** Copy - Copies files or directories from one location to another.
+7. **mv:** Move/Rename - Moves or renames files and directories.
+8. **rm:** Remove - Deletes files (use with caution!).
+9. **touch:** Touch - Creates an empty file.
+10. **clear:** Clear - Clears the terminal screen.
+
+
+## File Viewing and Manipulation
+
+11. **cat:** Concatenate - Displays the contents of a file on the terminal.
+12. **more/less:** View large files page by page.
+13. **head:** Displays the first few lines of a file.
+14. **tail:** Displays the last few lines of a file.
+15. **grep:** Search - Searches for a specific pattern within a file.
+16. **sed:** Stream Editor - Edits lines of text within a file (more advanced).
+17. **nano/vim:** Text Editors - Edit the contents of a file.
+
+
+## Permissions and Ownership
+
+18. **chmod:** Change Mode - Modifies file permissions (read, write, execute) for users, groups, and others.
+19. **chown:** Change Owner - Changes the owner of a file or directory.
+
+
+## System Information and Processes
+
+20. **uname:** Prints information about the system kernel.
+21. **whoami:** Shows the currently logged-in user.
+22. **ps:** Process Status - Lists currently running processes.
+23. **top:** Provides a real-time view of running processes and resource usage.
+24. **free:** Displays information about free and used memory.
+25. **df:** Disk Free - Shows available disk space on mounted file systems.
+
+
+## Networking and Package Management
+
+26. **ping:** Tests network connectivity to a host.
+27. **ssh:** Secure Shell - Establishes a secure remote connection to another server.  
+28. **sudo:** Superuser Do - Executes a command with root privileges (use with caution!).  
+29. **apt-get/yum** (depending on distro): Package management tools to install, update, and remove software packages.
+30. **man:** Manual - Provides documentation for most Linux commands.
